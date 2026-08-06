@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: hello-spring
+  namespace: hello
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: hello-spring
+
+  template:
+    metadata:
+      labels:
+        app: hello-spring
+
+    spec:
+
+      imagePullSecrets:
+      - name: ghcr-secret
+
+      containers:
+      - name: hello-spring
+
+        image: ghcr.io/hiteshguptagt/hello-spring:v1
+
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 8080

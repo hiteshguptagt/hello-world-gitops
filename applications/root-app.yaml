@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/hiteshguptagt/hello-world-gitops.git
     targetRevision: main
-    path: applications
+    path: apps
 
   destination:
     server: https://kubernetes.default.svc

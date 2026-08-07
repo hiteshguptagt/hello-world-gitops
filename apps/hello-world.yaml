@@ -10,8 +10,8 @@ spec:
 
   source:
     repoURL: https://github.com/hiteshguptagt/hello-world-gitops.git
-    targetRevision: HEAD
-    path: overlays/dev
+    targetRevision: main
+    path: workloads/hello-world/overlays/dev
 
   destination:
     server: https://kubernetes.default.svc

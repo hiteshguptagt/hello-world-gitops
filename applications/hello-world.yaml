@@ -10,7 +10,7 @@ spec:
 
   source:
     repoURL: https://github.com/hiteshguptagt/hello-world-gitops.git
-    targetRevision: master
+    targetRevision: main
     path: workloads/hello-world/overlays/dev
 
   destination:

@@ -16,7 +16,7 @@ metadata:
 
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:967170426815:certificate/a09de74a-4a1e-4a38-adea-ac56486bde14
 
-    alb.ingress.kubernetes.io/group.name: platform
+    alb.ingress.kubernetes.io/group.name: hello-app
 
 spec:
 

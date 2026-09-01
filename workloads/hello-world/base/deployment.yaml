@@ -24,7 +24,7 @@ spec:
       containers:
       - name: hello-spring
 
-        image: ghcr.io/hiteshguptagt/hello-spring:v1
+        image: ghcr.io/hiteshguptagt/hello-spring:3513d58
 
         imagePullPolicy: Always
 

@@ -1,7 +1,0 @@
-resources:
-  - ../../base
-
-namespace: hello-stage
-
-patches:
-  - path: ingress-patch.yaml

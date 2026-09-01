@@ -3,7 +3,6 @@ kind: Deployment
 
 metadata:
   name: hello-spring
-  namespace: hello
 
 spec:
   replicas: 4

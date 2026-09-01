@@ -1,2 +1,7 @@
 resources:
   - ../../base
+
+namespace: hello-prod
+
+patches:
+  - path: ingress-patch.yaml

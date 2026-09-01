@@ -3,7 +3,6 @@ kind: Ingress
 
 metadata:
   name: hello-ingress
-  namespace: hello
 
   annotations:
 

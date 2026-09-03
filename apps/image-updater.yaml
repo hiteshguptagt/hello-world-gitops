@@ -1,0 +1,11 @@
+apiVersion: argocd-image-updater.argoproj.io/v1alpha1
+kind: ImageUpdater
+
+metadata:
+  name: hello-world-updater
+  namespace: argocd
+
+spec:
+  applicationRefs:
+    - namePattern: hello-world
+      useAnnotations: true
